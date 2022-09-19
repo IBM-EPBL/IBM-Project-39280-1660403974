@@ -14,7 +14,7 @@ Original file is located at
 s = "Hi there Sam!"
 
 s="Hi there Sam!"
-print(string.split())
+print(s.split())
 
 """*`italicized text`*## 2. Use .format() to print the following string. 
 
