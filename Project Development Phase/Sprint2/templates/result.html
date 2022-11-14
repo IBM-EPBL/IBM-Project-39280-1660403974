@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Early detection of chronic kidney disease</title>
+        <link rel="stylesheet" type="text/css" href="/static/stylesheets/Finalpage.css">
+    </head>
+    <style>
+     h1{
+        font-family: 'Open Sans-Bold';
+    }     
+   
+    h3{
+        font-family: 'Open Sans-Bold';
+    }
+    h2{
+        text-align: center;
+        margin-top: 70px;
+    }
+    p{
+        color: #fc466b ;
+    }
+    </style>
+    <body>
+        <div class="center">
+        <div id="demobox">
+            <h1>Chronic Kidney Disease Detection</h1>
+            </div>
+            <div style="color:black;" class="results">
+                {% if pred==0 %}
+                    <h3><span class='danger'>Oops!! 🙁<br><br>You have CHRONIC KIDNEY DISEASE.<br><br>Please Consult Doctor.</span></h3>
+                    <img src="https://cdn-icons-png.flaticon.com/512/742/742774.png" class="center3">
+                    <br><br><br><br><br><br>
+                {% elif pred==1 %}
+                    <h3><span class='safe'> Congratulations!! <br><br>You DON'T have Chronic Kidney Disease.</span></h3>
+                    <img src="https://cdn-icons-png.flaticon.com/512/4160/4160724.png" class="center2">
+                {% endif %}
+            </div>
+        </div>
+    </body>
+</html>
