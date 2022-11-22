@@ -4,9 +4,12 @@ Early Detection of Chronic Kidney Disease using Machine Learning
 Team ID: PNT2022TMID51995
 
 Team Members:-
-Team Leade : Vibishaa KJ
+Team Leader : Vibishaa KJ 
+
 Member 1 : Vaishag SB
+
 Member 2 : Shibu A
+
 Member 3 : Pavithra R
 
 Project Title:-
